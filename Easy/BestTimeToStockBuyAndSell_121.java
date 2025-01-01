@@ -47,9 +47,10 @@ class BestTimeToStockBuyAndSell_121{
 
     }
 
+
     public static void main(String[] args) {  
        BestTimeToStockBuyAndSell_121 obj=new BestTimeToStockBuyAndSell_121();
-        int[] a=new int[] {3, 1, 6, 2, 4};
+        int[] a=new int[] {3, 1, 6, 2,0,6};
         System.err.println("Max Profit: "+ obj.maxProfitBrute(a));
         System.err.println("Max Profit: "+ obj.maxProfit(a));
     }
